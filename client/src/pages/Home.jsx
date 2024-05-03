@@ -1,8 +1,33 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
 
 	const posts = [
+		{
+			id: 1,
+			title: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+			des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut accusantium quaerat sint aperiam sit ratione! Quis minima, mollitia facere perspiciatis molestiae hic doloremque ipsa modi amet ut architecto animi officia.",
+			img: "../src/img/fr/Apple.png"
+		},
+		{
+			id: 2,
+			title: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+			des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut accusantium quaerat sint aperiam sit ratione! Quis minima, mollitia facere perspiciatis molestiae hic doloremque ipsa modi amet ut architecto animi officia.",
+			img: "../src/img/fr/Banana.png"
+		},
+		{
+			id: 3,
+			title: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+			des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut accusantium quaerat sint aperiam sit ratione! Quis minima, mollitia facere perspiciatis molestiae hic doloremque ipsa modi amet ut architecto animi officia.",
+			img: "../src/img/fr/Cocoa.png"
+		},
+		{
+			id: 4,
+			title: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+			des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut accusantium quaerat sint aperiam sit ratione! Quis minima, mollitia facere perspiciatis molestiae hic doloremque ipsa modi amet ut architecto animi officia.",
+			img: "../src/img/fr/Damson.png"
+		}
 	]
 
 	return (
@@ -17,7 +42,7 @@ const Home = () => {
 							<Link className="link" to={`/post/${post.id}`}>
 								<h1>{post.title}</h1>
 							</Link>
-							<p>{post.desc}</p>
+							<p>{post.des}</p>
 							<button>Read More...</button>
 						</div>
 					</div>
