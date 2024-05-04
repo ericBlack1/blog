@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-// import ReactQuill from 'react-quill'
-// import 'react-quill/dist/quill.snow.css'
+import ReactQuill from 'react-quill'
+import 'react-quill/dist/quill.snow.css'
 
 const Write = () => {
 	const [value, setValue] = useState('');
@@ -9,7 +9,7 @@ const Write = () => {
 		<div className="content">
 			<input type='text' placeholder='Title' />
 			<div className="editorContainer">
-				{/* <ReactQuill theme="snow" value={value} onChange={setValue} />; */}
+				<ReactQuill className="editor" theme="snow" value={value} onChange={setValue} />;
 			</div>
 		</div>
 		<div className="menu">
@@ -35,12 +35,12 @@ const Write = () => {
 					<label htmlFor="weather">Weather</label>
 				</div>
 				<div className="cat">
-					<input type='radio' name='cat' value='others' id='others'/>
+					<input type='radio' name='cat' value='climate' id='climate'/>
 					<label htmlFor="others">Climate</label>
 				</div>
 				<div className="cat">
-					<input type='radio' name='cat' value='others' id='others'/>
-					<label htmlFor="others">Atmosphere</label>
+					<input type='radio' name='cat' value='atmospheric-conditions' id='atmospheric-conditions'/>
+					<label htmlFor="others">Atmospheric-conditions</label>
 				</div>
 				<div className="cat">
 					<input type='radio' name='cat' value='others' id='others'/>
