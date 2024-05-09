@@ -24,8 +24,8 @@ const Navbar = () => {
 				<Link className='link' to="/?cat=others">
 					<h6>OTHERS</h6>
 				</Link>
-				<span>Person</span>
-				<span>View Weather</span>
+				<span>John</span>
+				<span>Logout</span>
 				<span className='write'>
 					<Link className='link' to="/write">Write</Link>
 				</span>

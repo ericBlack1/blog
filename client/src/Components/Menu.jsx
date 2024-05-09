@@ -34,7 +34,7 @@ const Menu = () => {
         {posts.map((post) => (
             <div className="post" key={post.id}>
                 <img src={post.img} alt=''/>
-                <h2>{post.title}</h2>
+                <h3>{post.title}</h3>
                 <button>Read More...</button>
             </div>
         ))}

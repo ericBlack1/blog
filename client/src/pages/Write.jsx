@@ -9,7 +9,7 @@ const Write = () => {
 		<div className="content">
 			<input type='text' placeholder='Title' />
 			<div className="editorContainer">
-				<ReactQuill className="editor" theme="snow" value={value} onChange={setValue} />;
+				<ReactQuill className="editor" theme="snow" value={value} onChange={setValue} />
 			</div>
 		</div>
 		<div className="menu">

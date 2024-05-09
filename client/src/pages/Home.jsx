@@ -3,46 +3,46 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 
 const Home = () => {
-	const [posts, setPosts] = useState([])
+	// const [posts, setPosts] = useState([])
 
-	useEffect(() => {
-		const fetchData = async () => {
-			try {
-				const res = await axios.get("/posts")
-				setPosts(res.data)
-			} catch (err) {
-				console.log(err)
-			}
-		}
-		fetchData();
-	}, [])
-
-	// const posts = [
-	// 	{
-	// 		id: 1,
-	// 		title: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-	// 		des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut accusantium quaerat sint aperiam sit ratione! Quis minima, mollitia facere perspiciatis molestiae hic doloremque ipsa modi amet ut architecto animi officia.",
-	// 		img: "../src/img/fr/Apple.png"
-	// 	},
-	// 	{
-	// 		id: 2,
-	// 		title: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-	// 		des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut accusantium quaerat sint aperiam sit ratione! Quis minima, mollitia facere perspiciatis molestiae hic doloremque ipsa modi amet ut architecto animi officia.",
-	// 		img: "../src/img/fr/Banana.png"
-	// 	},
-	// 	{
-	// 		id: 3,
-	// 		title: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-	// 		des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut accusantium quaerat sint aperiam sit ratione! Quis minima, mollitia facere perspiciatis molestiae hic doloremque ipsa modi amet ut architecto animi officia.",
-	// 		img: "../src/img/fr/Cocoa.png"
-	// 	},
-	// 	{
-	// 		id: 4,
-	// 		title: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-	// 		des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut accusantium quaerat sint aperiam sit ratione! Quis minima, mollitia facere perspiciatis molestiae hic doloremque ipsa modi amet ut architecto animi officia.",
-	// 		img: "../src/img/fr/Damson.png"
+	// useEffect(() => {
+	// 	const fetchData = async () => {
+	// 		try {
+	// 			const res = await axios.get("/posts")
+	// 			setPosts(res.data)
+	// 		} catch (err) {
+	// 			console.log(err)
+	// 		}
 	// 	}
-	// ]
+	// 	fetchData();
+	// }, [])
+
+	const posts = [
+		{
+			id: 1,
+			title: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+			des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut accusantium quaerat sint aperiam sit ratione! Quis minima, mollitia facere perspiciatis molestiae hic doloremque ipsa modi amet ut architecto animi officia.",
+			img: "../src/img/fr/Apple.png"
+		},
+		{
+			id: 2,
+			title: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+			des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut accusantium quaerat sint aperiam sit ratione! Quis minima, mollitia facere perspiciatis molestiae hic doloremque ipsa modi amet ut architecto animi officia.",
+			img: "../src/img/fr/Banana.png"
+		},
+		{
+			id: 3,
+			title: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+			des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut accusantium quaerat sint aperiam sit ratione! Quis minima, mollitia facere perspiciatis molestiae hic doloremque ipsa modi amet ut architecto animi officia.",
+			img: "../src/img/fr/Cocoa.png"
+		},
+		{
+			id: 4,
+			title: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+			des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut accusantium quaerat sint aperiam sit ratione! Quis minima, mollitia facere perspiciatis molestiae hic doloremque ipsa modi amet ut architecto animi officia.",
+			img: "../src/img/fr/Damson.png"
+		}
+	]
 
 	return (
 		<div className="home">

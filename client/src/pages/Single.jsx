@@ -14,7 +14,7 @@ const Single = () => {
 			<div className="user">
 				<img src={Profile} alt=''/>
 				<div className="info">
-					<span>Person</span>
+					<span>John</span>
 					<p>Posted 2 days ago</p>
 				</div>
 				<div className="edit">
@@ -26,8 +26,8 @@ const Single = () => {
 			</div>
 			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam harum consequuntur voluptatem magnam, vitae, illum nostrum suscipit sint placeat, delectus vel voluptas vero recusandae laborum. Perspiciatis fuga autem unde veniam?</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ullam ratione perspiciatis eos aliquam quas error totam natus, assumenda, architecto nemo illum porro praesentium eius adipisci officia voluptate sunt inventore.
-			Libero, possimus iusto quo aliquid voluptates placeat debitis. Repellendus voluptatum repudiandae pariatur perspiciatis iusto, ratione quas itaque enim a numquam, iste laboriosam impedit facilis accusamus provident autem incidunt animi eius?
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ullam ratione perspiciatis eos aliquam quas error totam natus, assumenda, architecto nemo illum porro praesentium eius adipisci officia voluptate sunt inventore.</p>
+			<p>Libero, possimus iusto quo aliquid voluptates placeat debitis. Repellendus voluptatum repudiandae pariatur perspiciatis iusto, ratione quas itaque enim a numquam, iste laboriosam impedit facilis accusamus provident autem incidunt animi eius?
 			Eos eveniet repudiandae doloremque et, est, minus architecto, recusandae sint corporis natus blanditiis. Laborum, a! Commodi error enim ducimus inventore. Sequi omnis illum rerum nemo facilis assumenda distinctio, non earum.
 			Quibusdam, repellendus. Enim, minus voluptatem provident nobis aperiam dolore? Perspiciatis ab molestiae perferendis accusamus, iste corrupti praesentium! Fugiat porro tenetur id iure, ratione iste, quaerat dolorum eveniet possimus, nam animi?
 			Sit ullam aperiam, natus possimus accusantium exercitationem in, officia voluptatibus tenetur totam, consequuntur illo fugiat reiciendis? Officiis cupiditate adipisci, fugiat iure nesciunt minus quo odit. Id asperiores voluptas tempore delectus.

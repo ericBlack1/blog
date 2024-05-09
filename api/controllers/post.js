@@ -1,4 +1,4 @@
-import {db} from "../db.js"
+import {db} from "../index.js"
   
 export const getPosts = ('/posts', (req, res) => {
     const q = req.query.cat
